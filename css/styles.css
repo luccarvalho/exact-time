@@ -105,6 +105,20 @@ body {
   color: #fff;
 }
 
+/** BOTTOM NAVBAR **/
+#bottom-navbar-container .container {
+  justify-content: flex-end;
+}
+
+#bottom-navbar-container a {
+  font-weight: 600;
+  color: #fff;
+}
+
+.navbar-toggler {
+  font-size: 1.5em;
+}
+
 /** RESPONSIVIDADE TELAS MAIORES **/
 @media (min-width: 768px) {
   .navbar-brand {
@@ -117,7 +131,7 @@ body {
   }
 
   #search-form {
-    min-width: 50%;
+    width: 50%;
     margin: 0;
   }
 }
