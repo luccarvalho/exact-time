@@ -84,7 +84,8 @@ body {
   justify-content: space-between;
 }
 
-#search-form {
+#search-form,
+#news-form {
   border: 2px solid #626262;
   border-radius: 3px;
   padding: 5px 15px;
@@ -92,16 +93,20 @@ body {
   margin: 2em 0;
 }
 
-#search-form input {
+#search-form input,
+#news-form input {
   background-color: transparent;
   border: none;
 }
 
-#search-form input:focus {
+#search-form input:focus,
+#news-form input:focus {
   box-shadow: none;
+  color: #fff;
 }
 
-#search-form input::placeholder {
+#search-form input::placeholder,
+#news-form input::placeholder {
   color: #fff;
 }
 
@@ -365,6 +370,48 @@ body {
   font-weight: bold;
   font-size: 1.5em;
   margin-top: -10px;
+}
+
+/* NEWSLETTER */
+#newsletter-container {
+  border-bottom: 1px solid #626262;
+  text-align: center;
+  padding: 20px;
+}
+
+#news-form {
+  max-width: 600px;
+  margin: 15px auto;
+}
+
+#news-form i {
+  font-size: 1.5em;
+}
+
+#news-form .btn {
+  color: #fff;
+}
+
+#social-container {
+  margin: 20px auto;
+}
+
+#social-container i {
+  font-size: 1.5em;
+  margin: 10px;
+  cursor: pointer;
+  color: #626262;
+  transition: 0.3s;
+}
+
+#social-container i:hover {
+  color: #c09578;
+}
+
+/* COPY CONTAINER */
+#copy-container {
+  text-align: center;
+  padding: 30px;
 }
 
 /* RESPONSIVIDADE TELAS MAIORES */
